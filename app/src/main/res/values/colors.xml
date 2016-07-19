@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2E98CE</color>
+    <color name="colorPrimaryDark">#2E98CE</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="indigo">#1930c4</color>
+    <color name="pink">#ca102c</color>
+    <color name="brown">#3d3d3d</color>
+    <color name="theme">#6ec2ed</color>
+    <color name="theme_dark">#2E98CE</color>
+    <color name="app_text_color">#ec4103</color>
+
+    <color name="a">#ceacac</color>
+    <color name="b">#612323</color>
+    <color name="c">#225e24</color>
+    <color name="d">#4e2496</color>
+    <color name="e">#ab9d35</color>
+    <color name="f">#af0808</color>
+    <color name="g">#1e2658</color>
+    <color name="h">#631a1a</color>
+    <color name="i">#310808</color>
+</resources>

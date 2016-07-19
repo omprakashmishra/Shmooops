@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/five_dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="@dimen/eighty_dp"
+            android:layout_height="@dimen/eighty_dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/profile_bg"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:layout_toRightOf="@+id/profileImage"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtFarmName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Adam's Shop"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/sixteen_sp"
+                pixlui:typeface="OpenSans-Bold.ttf" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/five_dp"
+
+                android:drawablePadding="@dimen/three_dp"
+                android:gravity="center"
+                android:text="23 down St."
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/fourteen_sp"
+                pixlui:typeface=" Roboto-Thin.ttf" />
+        </LinearLayout>
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/txtDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/twenty_dp"
+            android:layout_marginTop="@dimen/five_dp"
+            android:drawablePadding="@dimen/three_dp"
+            android:gravity="center"
+            android:text="2 mi"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/fourteen_sp"
+            pixlui:typeface=" Roboto-Thin.ttf" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/five_dp"
+        android:background="@color/theme_dark" />
+</LinearLayout>

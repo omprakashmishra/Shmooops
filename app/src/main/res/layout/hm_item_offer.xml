@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:background="@color/theme"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:id="@+id/offer_img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sdafdfadg"
+        android:maxLines="2"
+        android:layout_gravity="center_horizontal"
+        android:padding="2dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        android:id="@+id/offer_description" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="d"
+        android:layout_gravity="center_horizontal"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:textColor="@color/colorPrimary"
+        android:textIsSelectable="false"
+        android:id="@+id/offer_on" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Shmooops</string>
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="username">User Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="clienttest">CLIENT TESTIMONIALS</string>
+    <string name="name">Name</string>
+    <string name="alreadyac">Already have an account ? Sign In</string>
+    <string name="bookAn">Book an Appointment</string>
+    <string name="phone">Phone</string>
+    <string name="expressBook">Express Book</string>
+    <string name="booknow">Book Now</string>
+    <string name="search">Search</string>
+    <string name="vendors_around_you">Vendors Around You</string>
+
+    <string name="facebook_app_id">301070943566867</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+      AIzaSyCZq72CmqKblsEahGVaPuYhmMF4h-LVjN4
+    </string>
+    <string name="message_board">Message Board</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/theme_dark"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/RL_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center_vertical"
+      >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView12"
+            android:src="@drawable/ic_backarrow" />
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Back"
+            android:id="@+id/tvback"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imageView12"
+            android:layout_alignBottom="@+id/imageView12" />
+
+    </RelativeLayout>
+</LinearLayout>

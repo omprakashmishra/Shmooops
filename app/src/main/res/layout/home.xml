@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/theme"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.webmazix.shmooops.Home">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomDrawer"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/mainFrameContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottomDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/ten_dp"
+        android:paddingTop="@dimen/ten_dp">
+
+        <ImageView
+            android:id="@+id/petTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="ChangeTab"
+            android:src="@drawable/ic_petfeet_blank" />
+
+        <ImageView
+            android:id="@+id/searchTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="ChangeTab"
+            android:src="@drawable/ic_search" />
+
+        <ImageView
+            android:id="@+id/likeTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="ChangeTab"
+            android:src="@drawable/ic_like" />
+
+        <ImageView
+            android:id="@+id/calenderTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="ChangeTab"
+            android:src="@drawable/ic_calender" />
+
+        <ImageView
+            android:id="@+id/profileTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="ChangeTab"
+            android:src="@drawable/ic_userdp_blue" />
+
+    </LinearLayout>
+
+</RelativeLayout>
